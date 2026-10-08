@@ -1,0 +1,126 @@
+{
+  "users": [
+    {
+      "id": "usr_1791301211716_soe3d",
+      "email": "test.student@explainai.edu",
+      "name": "Test Student",
+      "role": "student",
+      "createdAt": "2026-10-06T15:40:11.716Z",
+      "updatedAt": "2026-10-06T15:40:11.717Z"
+    }
+  ],
+  "payments": [
+    {
+      "id": "pay_1791301211717_0n08t",
+      "userId": "usr_1791301211716_soe3d",
+      "amount": 49.99,
+      "currency": "usd",
+      "status": "completed",
+      "description": "Test Course Purchase",
+      "createdAt": "2026-10-06T15:40:11.717Z",
+      "updatedAt": "2026-10-06T15:40:11.717Z"
+    },
+    {
+      "id": "pay_1791301289512_0jv90",
+      "userId": "usr_1791301211716_soe3d",
+      "amount": 49.99,
+      "currency": "usd",
+      "status": "completed",
+      "description": "Test Course Purchase",
+      "createdAt": "2026-10-06T15:41:29.512Z",
+      "updatedAt": "2026-10-06T15:41:29.513Z"
+    },
+    {
+      "id": "pay_1791301361075_clwuk",
+      "userId": "usr_1791301211716_soe3d",
+      "amount": 49.99,
+      "currency": "usd",
+      "status": "completed",
+      "description": "Test Course Purchase",
+      "createdAt": "2026-10-06T15:42:41.075Z",
+      "updatedAt": "2026-10-06T15:42:41.076Z"
+    },
+    {
+      "id": "pay_1791301922886_4a4tl",
+      "userId": "usr_1791301211716_soe3d",
+      "amount": 49.99,
+      "currency": "usd",
+      "status": "completed",
+      "description": "Test Course Purchase",
+      "createdAt": "2026-10-06T15:52:02.886Z",
+      "updatedAt": "2026-10-06T15:52:02.887Z"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "tx_1791301211717_fec17",
+      "paymentId": "pay_1791301211717_0n08t",
+      "transactionId": "tx_test_99",
+      "gateway": "stripe",
+      "status": "succeeded",
+      "createdAt": "2026-10-06T15:40:11.717Z"
+    },
+    {
+      "id": "tx_1791301289513_h3qje",
+      "paymentId": "pay_1791301289512_0jv90",
+      "transactionId": "tx_test_99",
+      "gateway": "stripe",
+      "status": "succeeded",
+      "createdAt": "2026-10-06T15:41:29.513Z"
+    },
+    {
+      "id": "tx_1791301361076_yy1t5",
+      "paymentId": "pay_1791301361075_clwuk",
+      "transactionId": "tx_test_99",
+      "gateway": "stripe",
+      "status": "succeeded",
+      "createdAt": "2026-10-06T15:42:41.076Z"
+    },
+    {
+      "id": "tx_1791301922887_mroq4",
+      "paymentId": "pay_1791301922886_4a4tl",
+      "transactionId": "tx_test_99",
+      "gateway": "stripe",
+      "status": "succeeded",
+      "createdAt": "2026-10-06T15:52:02.887Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "aud_1791301211717_4fsqv",
+      "action": "PAYMENT_SUCCESS",
+      "entity": "Payment",
+      "entityId": "pay_1791301211717_0n08t",
+      "performedBy": "test.student@explainai.edu",
+      "details": "Processed payment of 49.99 USD",
+      "createdAt": "2026-10-06T15:40:11.717Z"
+    },
+    {
+      "id": "aud_1791301289513_xnist",
+      "action": "PAYMENT_SUCCESS",
+      "entity": "Payment",
+      "entityId": "pay_1791301289512_0jv90",
+      "performedBy": "test.student@explainai.edu",
+      "details": "Processed payment of 49.99 USD",
+      "createdAt": "2026-10-06T15:41:29.513Z"
+    },
+    {
+      "id": "aud_1791301361076_byfjk",
+      "action": "PAYMENT_SUCCESS",
+      "entity": "Payment",
+      "entityId": "pay_1791301361075_clwuk",
+      "performedBy": "test.student@explainai.edu",
+      "details": "Processed payment of 49.99 USD",
+      "createdAt": "2026-10-06T15:42:41.076Z"
+    },
+    {
+      "id": "aud_1791301922887_bb2d0",
+      "action": "PAYMENT_SUCCESS",
+      "entity": "Payment",
+      "entityId": "pay_1791301922886_4a4tl",
+      "performedBy": "test.student@explainai.edu",
+      "details": "Processed payment of 49.99 USD",
+      "createdAt": "2026-10-06T15:52:02.887Z"
+    }
+  ]
+}
